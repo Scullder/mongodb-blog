@@ -40,11 +40,6 @@ return [
             'driver' => 'session',
             'provider' => 'users',
         ],
-
-        'custom' => [
-            'driver' => 'mongo_guard',
-            'provider' => 'mongo_provider',
-        ],
     ],
 
     /*
